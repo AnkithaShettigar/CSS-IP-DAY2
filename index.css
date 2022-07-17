@@ -1,0 +1,68 @@
+button{
+    border: none;
+    background-color: rgb(28, 136, 236);
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+}
+button:hover{
+    background-color: rgb(73, 189, 189);
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Permanent+Marker&display=swap');
+h2{
+    font-family: 'poppins',sans-serif;
+}
+p{
+    font-family: 'Robin Moonrocks', cursive;
+}
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition-property: width,height;
+    transition-duration: 2s;
+}
+.test:hover{
+    width: 200px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+.media{
+    background-color: Blue;
+}
+@media (min-width:320px) and (max-width:480px){
+    .media{
+        background-color: yellow;
+
+    }
+}
+.animate{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    animation: change 5s  linear Infinite;
+}
+@keyframes change{
+        0%{
+            background-color: yellow;
+        }
+        25%{
+            background-color: black;
+        }
+        50%{
+            background-color: pink;
+        }
+        75%{
+            background-color: skyblue;
+        }
+        100%{
+            background-color: orange;
+        }
+
+    }
